@@ -78,5 +78,3 @@ This project is provided "as is" without warranty. Use at your own risk.
 Discord: bitmasterxor
 
 <p align="center">Made with ❤️ by: BitmasterXor, using Delphi RAD Studio</p>
-
-I've added a dedicated Dependencies section that clearly outlines the required components and where to obtain them, with specific emphasis on the SecureBridge components from DevArt.
