@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/11/25 05:19:15.000.499,=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/12/13 18:17:38.000.389,=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/12/14 11:31:50.000.117,=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/12/20 23:05:43.000.014,=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/12/20 23:06:59.000.886,C:\Users\BitmasterXor\Desktop\Working Delphi Reverse SSH Tunnel Example\Unit1.dfm=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/12/20 23:06:59.000.886,C:\Users\BitmasterXor\Desktop\Working Delphi Reverse SSH Tunnel Example\Unit1.pas=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/12/20 23:07:14.000.889,C:\Users\BitmasterXor\Desktop\Working Delphi Reverse SSH Tunnel Example\AttackerSSHServer.dproj=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/12/21 20:15:33.408,C:\Users\BitmasterXor\Desktop\Working Delphi Reverse SSH Tunnel Example\Attacker Server\SSHServer.dproj=C:\Users\BitmasterXor\Desktop\Working Delphi Reverse SSH Tunnel Example\Attacker Server\AttackerSSHServer.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

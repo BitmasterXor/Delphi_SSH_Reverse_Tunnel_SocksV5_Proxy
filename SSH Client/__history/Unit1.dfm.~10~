@@ -1,0 +1,78 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'SSH Client Connection Manager'
+  ClientHeight = 400
+  ClientWidth = 600
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poScreenCenter
+  Icon.Data = {
+    // Your original icon data preserved
+  }
+  PixelsPerInch = 96
+  TextHeight = 15
+  DesignSize = (
+    600
+    400)
+  object Memo1: TMemo
+    Left = 8
+    Top = 8
+    Width = 584
+    Height = 321
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    ScrollBars = ssBoth
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 335
+    Width = 584
+    Height = 57
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = 'Connect SSH Client'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Victimsshclient: TScSSHClient
+    KeyStorage = ScMemoryStorage1
+    OnServerKeyValidate = VictimsshclientServerKeyValidate
+    Left = 32
+    Top = 24
+  end
+  object VICTIMSSHCHANNEL: TScSSHChannel
+    Client = Victimsshclient
+    OnConnect = VICTIMSSHCHANNELConnect
+    Left = 96
+    Top = 24
+  end
+  object ScMemoryStorage1: TScMemoryStorage
+    Left = 160
+    Top = 24
+  end
+  object IdSocksServer1: TIdSocksServer
+    Bindings = <>
+    DefaultPort = 8888
+    AllowSocks4 = True
+    AllowSocks5 = True
+    NeedsAuthentication = False
+    Left = 224
+    Top = 24
+  end
+end
