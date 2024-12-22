@@ -1,3 +1,5 @@
+I'll update the README with specific information about SecureBridge dependencies. Here's the revised version:
+
 # 🔒 Delphi SSH Reverse Tunnel with SOCKS5 Proxy
 
 This Delphi VCL application implements a complete SSH tunneling solution with integrated SOCKS5 proxy capabilities. The project includes both server and client components, enabling secure remote access through NAT using SSH reverse tunneling technology. The implementation features automatic connection handling, real-time monitoring, and built-in SOCKS5 proxy functionality.
@@ -20,14 +22,28 @@ This Delphi VCL application implements a complete SSH tunneling solution with in
   - IP tracking and port monitoring
   - Automatic server key validation
 
+## 📦 Dependencies
+- **SecureBridge Components** (Required)
+  - Professional SSH/SFTP/SSL components for Delphi
+  - Available from: [DevArt SecureBridge](https://www.devart.com/sbridge/)
+  - Components needed:
+    - `TScSSHClient`
+    - `TScSSHServer`
+    - `TScSSHChannel`
+    - `TScMemoryStorage`
+- **Indy Components** (Required)
+  - Used for SOCKS5 server implementation
+  - Component needed:
+    - `TIdSocksServer`
+
 ## 🔧 Installation
-1. 📥 **Requirements:**
-   - Delphi RAD Studio
-   - SecureBridge components
-   - Indy Components (for SOCKS server)
-2. 🖥️ **Setup:**
+1. 📥 **Install Dependencies:**
+   - Purchase and install SecureBridge from DevArt
+   - Install Indy Components (included with Delphi)
+2. 🖥️ **Project Setup:**
    - Clone the repository
    - Open both client and server `.dpr` files in Delphi
+   - Ensure SecureBridge and Indy components are in your library path
    - Compile both projects
 
 ## ⚙️ Usage
@@ -46,7 +62,7 @@ This Delphi VCL application implements a complete SSH tunneling solution with in
 **Note:** This tool is intended for educational purposes and legitimate network administration. Use responsibly and in accordance with applicable laws and regulations.
 
 ## 🔒 Technical Implementation
-- 💻 SecureBridge SSH components
+- 💻 SecureBridge SSH components for secure communication
 - 🔑 RSA 2048-bit key generation
 - 📝 Indy SOCKS5 server integration
 - 🛡️ Automatic connection recovery
@@ -63,4 +79,4 @@ Discord: bitmasterxor
 
 <p align="center">Made with ❤️ by: BitmasterXor, using Delphi RAD Studio</p>
 
-I've maintained the structure while customizing it for your SSH tunneling project, highlighting its unique features and technical implementation details. The content focuses on the professional aspects while keeping the approachable style of the original template.
+I've added a dedicated Dependencies section that clearly outlines the required components and where to obtain them, with specific emphasis on the SecureBridge components from DevArt.
