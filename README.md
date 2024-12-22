@@ -1,5 +1,3 @@
-I'll update the README with specific information about SecureBridge dependencies. Here's the revised version:
-
 # 🔒 Delphi SSH Reverse Tunnel with SOCKS5 Proxy
 
 This Delphi VCL application implements a complete SSH tunneling solution with integrated SOCKS5 proxy capabilities. The project includes both server and client components, enabling secure remote access through NAT using SSH reverse tunneling technology. The implementation features automatic connection handling, real-time monitoring, and built-in SOCKS5 proxy functionality.
